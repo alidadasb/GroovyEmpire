@@ -1,2 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites />
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="Alis-MacBook-Pro-2.local" id="0" name="AccountSpec" package="groovyempire" tests="1" time="4.388" timestamp="2013-12-02T02:18:58">
+      <properties />
+
+      <testcase classname="groovyempire.AccountSpec" name="Create account for entity" time="3.904" />
+
+      <system-out><![CDATA[--Output from Create account for entity--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Create account for entity--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Alis-MacBook-Pro-2.local" id="1" name="BankSpec" package="groovyempire" tests="1" time="0.869" timestamp="2013-12-02T02:19:03">
+      <properties />
+
+      <testcase classname="groovyempire.BankSpec" name="Create bank account" time="0.444" />
+
+      <system-out><![CDATA[--Output from Create bank account--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Create bank account--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Alis-MacBook-Pro-2.local" id="2" name="EntitySpec" package="groovyempire" tests="2" time="0.23" timestamp="2013-12-02T02:19:04">
+      <properties />
+
+      <testcase classname="groovyempire.EntitySpec" name="Creating Individual" time="0.156" />
+
+      <testcase classname="groovyempire.EntitySpec" name="Creating Enterprise" time="0.067" />
+
+      <system-out><![CDATA[--Output from Creating Individual--
+--Output from Creating Enterprise--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Creating Individual--
+--Output from Creating Enterprise--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
