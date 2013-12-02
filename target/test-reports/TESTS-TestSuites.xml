@@ -1,24 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="1" failures="0" hostname="Alis-MacBook-Pro-2.local" id="0" name="AccountSpec" package="groovyempire" tests="1" time="0.527" timestamp="2013-12-02T05:17:35">
+  <testsuite errors="0" failures="0" hostname="Alis-MacBook-Pro-2.local" id="0" name="AccountSpec" package="groovyempire" tests="1" time="0.453" timestamp="2013-12-02T05:28:57">
       <properties />
 
-      <testcase classname="groovyempire.AccountSpec" name="Create account for a bank" time="0.286">
-          <error message="Validation error occurred during call to save():&#xa;&#xa;- Field error in object &apos;groovyempire.banking.Account&apos; on field &apos;bank&apos;: rejected value [null]; codes [groovyempire.banking.Account.bank.nullable.error.groovyempire.banking.Account.bank,groovyempire.banking.Account.bank.nullable.error.bank,groovyempire.banking.Account.bank.nullable.error.groovyempire.banking.Bank,groovyempire.banking.Account.bank.nullable.error,account.bank.nullable.error.groovyempire.banking.Account.bank,account.bank.nullable.error.bank,account.bank.nullable.error.groovyempire.banking.Bank,account.bank.nullable.error,groovyempire.banking.Account.bank.nullable.groovyempire.banking.Account.bank,groovyempire.banking.Account.bank.nullable.bank,groovyempire.banking.Account.bank.nullable.groovyempire.banking.Bank,groovyempire.banking.Account.bank.nullable,account.bank.nullable.groovyempire.banking.Account.bank,account.bank.nullable.bank,account.bank.nullable.groovyempire.banking.Bank,account.bank.nullable,nullable.groovyempire.banking.Account.bank,nullable.bank,nullable.groovyempire.banking.Bank,nullable]; arguments [bank,class groovyempire.banking.Account]; default message [Property [{0}] of class [{1}] cannot be null]&#xa;" type="grails.validation.ValidationException">grails.validation.ValidationException: Validation error occurred during call to save():
-
-- Field error in object &apos;groovyempire.banking.Account&apos; on field &apos;bank&apos;: rejected value [null]; codes [groovyempire.banking.Account.bank.nullable.error.groovyempire.banking.Account.bank,groovyempire.banking.Account.bank.nullable.error.bank,groovyempire.banking.Account.bank.nullable.error.groovyempire.banking.Bank,groovyempire.banking.Account.bank.nullable.error,account.bank.nullable.error.groovyempire.banking.Account.bank,account.bank.nullable.error.bank,account.bank.nullable.error.groovyempire.banking.Bank,account.bank.nullable.error,groovyempire.banking.Account.bank.nullable.groovyempire.banking.Account.bank,groovyempire.banking.Account.bank.nullable.bank,groovyempire.banking.Account.bank.nullable.groovyempire.banking.Bank,groovyempire.banking.Account.bank.nullable,account.bank.nullable.groovyempire.banking.Account.bank,account.bank.nullable.bank,account.bank.nullable.groovyempire.banking.Bank,account.bank.nullable,nullable.groovyempire.banking.Account.bank,nullable.bank,nullable.groovyempire.banking.Bank,nullable]; arguments [bank,class groovyempire.banking.Account]; default message [Property [{0}] of class [{1}] cannot be null]
-
-	at org.grails.datastore.gorm.GormInstanceApi.doSave(GormInstanceApi.groovy:182)
-	at org.grails.datastore.gorm.GormInstanceApi.save_closure5(GormInstanceApi.groovy:162)
-	at org.grails.datastore.mapping.core.DatastoreUtils.execute(DatastoreUtils.java:302)
-	at org.grails.datastore.gorm.AbstractDatastoreApi.execute(AbstractDatastoreApi.groovy:37)
-	at org.grails.datastore.gorm.GormInstanceApi.save(GormInstanceApi.groovy:161)
-	at groovyempire.banking.Account$$EOOq10Zk.establish(Account.groovy:26)
-	at groovyempire.banking.Bank$$EOOq008m.establishAccount(Bank.groovy:28)
-	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:30)
-</error>
-
-      </testcase>
+      <testcase classname="groovyempire.AccountSpec" name="Create account for a bank" time="0.228" />
 
       <system-out><![CDATA[--Output from Create account for a bank--
 --------------------
@@ -32,10 +17,10 @@ initial:100
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Alis-MacBook-Pro-2.local" id="1" name="BankSpec" package="groovyempire" tests="1" time="0.422" timestamp="2013-12-02T05:17:35">
+  <testsuite errors="0" failures="0" hostname="Alis-MacBook-Pro-2.local" id="1" name="BankSpec" package="groovyempire" tests="1" time="0.42" timestamp="2013-12-02T05:28:57">
       <properties />
 
-      <testcase classname="groovyempire.BankSpec" name="Create bank account" time="0.24" />
+      <testcase classname="groovyempire.BankSpec" name="Create bank account" time="0.215" />
 
       <system-out><![CDATA[--Output from Create bank account--
 ]]></system-out>
@@ -44,10 +29,10 @@ initial:100
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Alis-MacBook-Pro-2.local" id="2" name="EntitySpec" package="groovyempire" tests="1" time="0.284" timestamp="2013-12-02T05:17:36">
+  <testsuite errors="0" failures="0" hostname="Alis-MacBook-Pro-2.local" id="2" name="EntitySpec" package="groovyempire" tests="1" time="0.305" timestamp="2013-12-02T05:28:57">
       <properties />
 
-      <testcase classname="groovyempire.EntitySpec" name="Create an owner" time="0.102" />
+      <testcase classname="groovyempire.EntitySpec" name="Create an owner" time="0.092" />
 
       <system-out><![CDATA[--Output from Create an owner--
 ]]></system-out>
@@ -56,10 +41,10 @@ initial:100
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Alis-MacBook-Pro-2.local" id="3" name="OwnerSpec" package="groovyempire" tests="1" time="0.178" timestamp="2013-12-02T05:17:36">
+  <testsuite errors="0" failures="0" hostname="Alis-MacBook-Pro-2.local" id="3" name="OwnerSpec" package="groovyempire" tests="1" time="0.12" timestamp="2013-12-02T05:28:58">
       <properties />
 
-      <testcase classname="groovyempire.OwnerSpec" name="Create an owner" time="0.174" />
+      <testcase classname="groovyempire.OwnerSpec" name="Create an owner" time="0.117" />
 
       <system-out><![CDATA[--Output from Create an owner--
 ]]></system-out>

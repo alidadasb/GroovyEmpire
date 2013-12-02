@@ -26,8 +26,9 @@ class Bank implements GroovyEmpireEntity {
 
     Account establishAccount(owner,amount){
         def newAccount = Account.establish(owner,this,amount)
-        this.accounts << newAccount
+        this.addToAccounts(newAccount)
         this.save(flush: true)
+        newAccount
     }
 
     String getName(){

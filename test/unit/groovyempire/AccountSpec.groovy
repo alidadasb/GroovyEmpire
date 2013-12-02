@@ -30,8 +30,8 @@ class AccountSpec extends Specification {
         def account = bank.establishAccount(accountOwner,100)
 
         then:
-        account.amount == 100
-        account.owner  == accountOnwer
+        account.balance == 100
+        account.owners[0]  == accountOwner
 
     }
 }

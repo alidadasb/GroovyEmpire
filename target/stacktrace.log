@@ -1469,3 +1469,183 @@ grails.validation.ValidationException: Validation error occurred during call to 
 	at groovyempire.banking.Account$$EOOq10Zk.establish(Account.groovy:26)
 	at groovyempire.banking.Bank$$EOOq008m.establishAccount(Bank.groovy:28)
 	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:30)
+2013-12-02 00:23:55,124 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method leftShift() on null object
+	at groovyempire.banking.Bank.establishAccount(Bank.groovy:29)
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:30)
+2013-12-02 00:23:55,128 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method leftShift() on null object
+	at groovyempire.banking.Bank.establishAccount(Bank.groovy:29)
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:30)
+2013-12-02 00:23:55,129 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method leftShift() on null object
+	at groovyempire.banking.Bank.establishAccount(Bank.groovy:29)
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:30)
+2013-12-02 00:23:55,129 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method leftShift() on null object
+	at groovyempire.banking.Bank.establishAccount(Bank.groovy:29)
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:30)
+2013-12-02 00:23:55,186 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method leftShift() on null object
+	at groovyempire.banking.Bank.establishAccount(Bank.groovy:29)
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:30)
+2013-12-02 00:23:55,186 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method leftShift() on null object
+	at groovyempire.banking.Bank.establishAccount(Bank.groovy:29)
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:30)
+2013-12-02 00:25:19,582 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method leftShift() on null object
+	at groovyempire.banking.Bank$$EOOq2x1U.establishAccount(Bank.groovy:32)
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:30)
+2013-12-02 00:25:19,583 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method leftShift() on null object
+	at groovyempire.banking.Bank$$EOOq2x1U.establishAccount(Bank.groovy:32)
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:30)
+2013-12-02 00:25:19,583 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method leftShift() on null object
+	at groovyempire.banking.Bank$$EOOq2x1U.establishAccount(Bank.groovy:32)
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:30)
+2013-12-02 00:25:19,583 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method leftShift() on null object
+	at groovyempire.banking.Bank$$EOOq2x1U.establishAccount(Bank.groovy:32)
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:30)
+2013-12-02 00:25:19,584 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method leftShift() on null object
+	at groovyempire.banking.Bank$$EOOq2x1U.establishAccount(Bank.groovy:32)
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:30)
+2013-12-02 00:25:19,584 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method leftShift() on null object
+	at groovyempire.banking.Bank$$EOOq2x1U.establishAccount(Bank.groovy:32)
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:30)
+2013-12-02 00:25:48,085 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'groovyempire.banking.Bank : 1' with class 'groovyempire.banking.Bank' to class 'groovyempire.banking.Account'
+	at groovyempire.banking.Bank$$EOOq34ZE.establishAccount(Bank.groovy:33)
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:30)
+2013-12-02 00:25:48,085 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'groovyempire.banking.Bank : 1' with class 'groovyempire.banking.Bank' to class 'groovyempire.banking.Account'
+	at groovyempire.banking.Bank$$EOOq34ZE.establishAccount(Bank.groovy:33)
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:30)
+2013-12-02 00:25:48,085 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'groovyempire.banking.Bank : 1' with class 'groovyempire.banking.Bank' to class 'groovyempire.banking.Account'
+	at groovyempire.banking.Bank$$EOOq34ZE.establishAccount(Bank.groovy:33)
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:30)
+2013-12-02 00:25:48,085 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'groovyempire.banking.Bank : 1' with class 'groovyempire.banking.Bank' to class 'groovyempire.banking.Account'
+	at groovyempire.banking.Bank$$EOOq34ZE.establishAccount(Bank.groovy:33)
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:30)
+2013-12-02 00:25:48,086 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'groovyempire.banking.Bank : 1' with class 'groovyempire.banking.Bank' to class 'groovyempire.banking.Account'
+	at groovyempire.banking.Bank$$EOOq34ZE.establishAccount(Bank.groovy:33)
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:30)
+2013-12-02 00:25:48,086 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'groovyempire.banking.Bank : 1' with class 'groovyempire.banking.Bank' to class 'groovyempire.banking.Account'
+	at groovyempire.banking.Bank$$EOOq34ZE.establishAccount(Bank.groovy:33)
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:30)
+2013-12-02 00:27:21,320 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: amount for class: groovyempire.banking.Account
+Possible solutions: count
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:33)
+2013-12-02 00:27:21,377 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: amount for class: groovyempire.banking.Account
+Possible solutions: count
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:33)
+2013-12-02 00:27:21,388 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: amount for class: groovyempire.banking.Account
+Possible solutions: count
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:33)
+2013-12-02 00:27:21,390 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: amount for class: groovyempire.banking.Account
+Possible solutions: count
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:33)
+2013-12-02 00:27:21,410 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: amount for class: groovyempire.banking.Account
+Possible solutions: count
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:33)
+2013-12-02 00:27:21,413 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: amount for class: groovyempire.banking.Account
+Possible solutions: count
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:33)
+2013-12-02 00:28:13,528 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: accountOnwer for class: groovyempire.AccountSpec
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:34)
+2013-12-02 00:28:13,529 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: accountOnwer for class: groovyempire.AccountSpec
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:34)
+2013-12-02 00:28:13,529 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: accountOnwer for class: groovyempire.AccountSpec
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:34)
+2013-12-02 00:28:13,529 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: accountOnwer for class: groovyempire.AccountSpec
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:34)
+2013-12-02 00:28:13,530 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: accountOnwer for class: groovyempire.AccountSpec
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:34)
+2013-12-02 00:28:13,530 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: accountOnwer for class: groovyempire.AccountSpec
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:34)
+2013-12-02 00:28:32,028 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+account.owners  == [accountOwner]
+|       |       |   |
+|       |       |   groovyempire.Owner : 2
+|       |       false
+|       [groovyempire.Owner : 2]
+groovyempire.banking.Account : 1
+
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:34)
+2013-12-02 00:28:32,032 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+account.owners  == [accountOwner]
+|       |       |   |
+|       |       |   groovyempire.Owner : 2
+|       |       false
+|       [groovyempire.Owner : 2]
+groovyempire.banking.Account : 1
+
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:34)
+2013-12-02 00:28:32,032 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+account.owners  == [accountOwner]
+|       |       |   |
+|       |       |   groovyempire.Owner : 2
+|       |       false
+|       [groovyempire.Owner : 2]
+groovyempire.banking.Account : 1
+
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:34)
+2013-12-02 00:28:32,032 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+account.owners  == [accountOwner]
+|       |       |   |
+|       |       |   groovyempire.Owner : 2
+|       |       false
+|       [groovyempire.Owner : 2]
+groovyempire.banking.Account : 1
+
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:34)
+2013-12-02 00:28:32,033 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+account.owners  == [accountOwner]
+|       |       |   |
+|       |       |   groovyempire.Owner : 2
+|       |       false
+|       [groovyempire.Owner : 2]
+groovyempire.banking.Account : 1
+
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:34)
+2013-12-02 00:28:32,033 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+account.owners  == [accountOwner]
+|       |       |   |
+|       |       |   groovyempire.Owner : 2
+|       |       false
+|       [groovyempire.Owner : 2]
+groovyempire.banking.Account : 1
+
+	at groovyempire.AccountSpec.Create account for a bank(AccountSpec.groovy:34)

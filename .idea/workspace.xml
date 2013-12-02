@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f603c66f-ac32-458e-bee9-bcc4afd69d51" name="Default" comment="" />
+    <list default="true" id="f603c66f-ac32-458e-bee9-bcc4afd69d51" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/groovyempire/AccountSpec.groovy" afterPath="$PROJECT_DIR$/test/unit/groovyempire/AccountSpec.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Bank.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Bank.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/TESTS-TestSuites.xml" afterPath="$PROJECT_DIR$/target/test-reports/TESTS-TestSuites.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/all.html" afterPath="$PROJECT_DIR$/target/test-reports/html/all.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/failed.html" afterPath="$PROJECT_DIR$/target/test-reports/html/failed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/index.html" afterPath="$PROJECT_DIR$/target/test-reports/html/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="GroovyEmpire.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
@@ -65,10 +74,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AccountSpec.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AccountSpec.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/unit/groovyempire/AccountSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="37" selection-start="757" selection-end="757" vertical-scroll-proportion="-18.913044" vertical-offset="0" max-vertical-offset="645">
+            <state line="33" column="42" selection-start="870" selection-end="870" vertical-scroll-proportion="0.59710497" vertical-offset="0" max-vertical-offset="829">
               <folding>
                 <element signature="e#22#51#0" expanded="true" />
               </folding>
@@ -97,13 +106,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Account.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Account.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Account.groovy">
           <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="14" selection-start="71" selection-end="71" vertical-scroll-proportion="0.07481297" vertical-offset="0" max-vertical-offset="802">
+            <state line="18" column="19" selection-start="311" selection-end="311" vertical-scroll-proportion="-5.4" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -127,7 +136,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="35" selection-start="646" selection-end="646" vertical-scroll-proportion="-8.1" vertical-offset="0" max-vertical-offset="645">
+            <state line="30" column="18" selection-start="761" selection-end="761" vertical-scroll-proportion="-9.0" vertical-offset="0" max-vertical-offset="660">
               <folding>
                 <element signature="e#30#56#0" expanded="true" />
               </folding>
@@ -170,17 +179,17 @@
         <option value="$PROJECT_DIR$/test/unit/groovyempire/EntitySpec.groovy" />
         <option value="$PROJECT_DIR$/test/unit/groovyempire/BankSpec.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Transaction.groovy" />
-        <option value="$PROJECT_DIR$/test/unit/groovyempire/AccountSpec.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/groovyempire/Owner.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/groovyempire/Entity.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Bank.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Account.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Bank.groovy" />
+        <option value="$PROJECT_DIR$/test/unit/groovyempire/AccountSpec.groovy" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="644" />
-    <option name="y" value="22" />
+    <option name="x" value="671" />
+    <option name="y" value="32" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -589,7 +598,7 @@
       <workItem from="1382152917621" duration="1143000" />
       <workItem from="1385085633410" duration="130000" />
       <workItem from="1385166364755" duration="86000" />
-      <workItem from="1385949892446" duration="10796000" />
+      <workItem from="1385949892446" duration="11180000" />
     </task>
     <task id="LOCAL-00001" summary="I think the first commit &#10;">
       <created>1382153414843</created>
@@ -607,11 +616,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23226000" />
+    <option name="totallyTimeSpent" value="23610000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="644" y="22" width="1400" height="1000" extended-state="0" />
-    <editor active="false" />
+    <frame x="671" y="32" width="1400" height="1000" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3375" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -628,7 +637,7 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963072" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963072" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -637,7 +646,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284091" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19276218" sideWeight="0.67045456" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19276218" sideWeight="0.67045456" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -872,12 +881,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/groovyempire/AccountSpec.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Account.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="37" selection-start="757" selection-end="757" vertical-scroll-proportion="-18.913044" vertical-offset="0" max-vertical-offset="645">
-          <folding>
-            <element signature="e#22#51#0" expanded="true" />
-          </folding>
+        <state line="18" column="19" selection-start="311" selection-end="311" vertical-scroll-proportion="-5.4" vertical-offset="0" max-vertical-offset="510">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -886,20 +896,19 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="35" selection-start="646" selection-end="646" vertical-scroll-proportion="-8.1" vertical-offset="0" max-vertical-offset="645">
+        <state line="30" column="18" selection-start="761" selection-end="761" vertical-scroll-proportion="-9.0" vertical-offset="0" max-vertical-offset="660">
           <folding>
             <element signature="e#30#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Account.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/test/unit/groovyempire/AccountSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="14" selection-start="71" selection-end="71" vertical-scroll-proportion="0.07481297" vertical-offset="0" max-vertical-offset="802">
-          <folding />
+        <state line="33" column="42" selection-start="870" selection-end="870" vertical-scroll-proportion="0.59710497" vertical-offset="0" max-vertical-offset="829">
+          <folding>
+            <element signature="e#22#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
