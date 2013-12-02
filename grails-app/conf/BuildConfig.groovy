@@ -56,7 +56,7 @@ grails.project.dependency.resolution = {
         build ':tomcat:7.0.47'
         runtime ':hibernate:3.6.10.4'
         compile ":console:1.2"
-        compile ":scaffolding:2.0.0"
+        compile ":scaffolding:2.0.1"
         compile ':cache:1.1.1'
 
         compile ":build-test-data:2.0.8"

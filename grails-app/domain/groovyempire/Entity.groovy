@@ -3,20 +3,28 @@ package groovyempire
 /**
  * Created by Alidad on 9/12/13.
  */
+
 class Entity {
     EntityType type
     String code
     String name
 
-    String toString(){return name}
-}
-
-enum EntityType {
-    ENTERPRISE,
-    INDIVIDUAL
-
-    String toString(){
-
-        return (this==EntityType.INDIVIDUAL)?"Individual":"Enterprise"
+    static String nextCode() {
+         UUID.randomUUID()
     }
+
+    static Entity establish(type,name){
+        new Entity(type:type,code:Entity.nextCode(),name:name).save(flush:true,failOnError: true)
+    }
+
+    static constraints= {
+        code unique:true
+    }
+
+    static mapping = {
+        sort id:"desc"
+    }
+
+
+    String toString() { return name }
 }

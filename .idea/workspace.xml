@@ -2,201 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f603c66f-ac32-458e-bee9-bcc4afd69d51" name="Default" comment="I think the first commit&#10;">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/BuildTestDataGrailsPlugin.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/dependencies.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/grails-app/conf/TestDataConfigTemplate.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/grails-app/conf/spring/.hidden" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/grails-app/i18n/messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/grails-app/services/grails/buildtestdata/BuildTestDataService.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/lib/xeger-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/scripts/InstallBuildTestDataConfigTemplate.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/scripts/_Install.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/scripts/_Uninstall.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/scripts/_Upgrade.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/src/groovy/grails/buildtestdata/CircularCheckList.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/src/groovy/grails/buildtestdata/DomainInstanceBuilder.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/src/groovy/grails/buildtestdata/DomainUtil.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/src/groovy/grails/buildtestdata/MockErrors.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/src/groovy/grails/buildtestdata/TestDataConfigurationHolder.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/src/groovy/grails/buildtestdata/handler/BlankConstraintHandler.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/src/groovy/grails/buildtestdata/handler/ConstraintHandler.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/src/groovy/grails/buildtestdata/handler/ConstraintHandlerException.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/src/groovy/grails/buildtestdata/handler/CreditCardConstraintHandler.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/src/groovy/grails/buildtestdata/handler/EmailConstraintHandler.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/src/groovy/grails/buildtestdata/handler/InListConstraintHandler.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/src/groovy/grails/buildtestdata/handler/MatchesConstraintHandler.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/src/groovy/grails/buildtestdata/handler/MaxConstraintHandler.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/src/groovy/grails/buildtestdata/handler/MaxSizeConstraintHandler.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/src/groovy/grails/buildtestdata/handler/MinConstraintHandler.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/src/groovy/grails/buildtestdata/handler/MinSizeConstraintHandler.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/src/groovy/grails/buildtestdata/handler/NullableConstraintHandler.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/src/groovy/grails/buildtestdata/handler/RangeConstraintHandler.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/src/groovy/grails/buildtestdata/handler/SizeConstraintHandler.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/src/groovy/grails/buildtestdata/handler/UniqueConstraintHandler.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/src/groovy/grails/buildtestdata/handler/UrlConstraintHandler.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/src/groovy/grails/buildtestdata/handler/ValidatorConstraintHandler.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/src/groovy/grails/buildtestdata/mixin/BuildTestDataUnitTestMixin.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/src/java/grails/buildtestdata/mixin/Build.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/src/java/grails/buildtestdata/mixin/BuildTransformation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/web-app/css/errors.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/web-app/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/web-app/css/mobile.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/web-app/images/apple-touch-icon-retina.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/web-app/images/apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/web-app/images/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/web-app/images/grails_logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/web-app/images/grails_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/web-app/images/leftnav_btm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/web-app/images/leftnav_midstretch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/web-app/images/leftnav_top.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/web-app/images/skin/database_add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/web-app/images/skin/database_delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/web-app/images/skin/database_edit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/web-app/images/skin/database_save.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/web-app/images/skin/database_table.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/web-app/images/skin/exclamation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/web-app/images/skin/house.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/web-app/images/skin/information.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/web-app/images/skin/shadow.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/web-app/images/skin/sorted_asc.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/web-app/images/skin/sorted_desc.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/web-app/images/spinner.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/web-app/images/springsource.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/build-test-data-2.0.5/web-app/js/application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/DatabaseMigrationGrailsPlugin.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/dependencies.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/grails-app/conf/DbdocUrlMappings.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/grails-app/controllers/grails/plugin/databasemigration/DbdocController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/grails-app/views/dbdoc/_globalnav.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/grails-app/views/dbdoc/_index.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/grails-app/views/dbdoc/_overview-summary.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/grails-app/views/dbdoc/_stylesheet.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmChangelogSync.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmChangelogSyncSql.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmChangelogToGroovy.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmClearChecksums.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmCreateChangelog.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmDbDoc.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmDiff.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmDropAll.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmFutureRollbackSql.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmGenerateChangelog.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmGenerateGormChangelog.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmGormDiff.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmListLocks.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmListTags.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmMarkNextChangesetRan.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmPreviousChangesetSql.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmRegisterChangelog.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmReleaseLocks.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmRollback.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmRollbackCount.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmRollbackCountSql.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmRollbackSql.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmRollbackToDate.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmRollbackToDateSql.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmStatus.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmTag.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmUpdate.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmUpdateCount.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmUpdateCountSql.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmUpdateSql.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/DbmValidate.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/_DatabaseMigrationCommon.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/_Events.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/scripts/_Install.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/ChangelogXml2Groovy.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/DslBuilder.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/GormColumn.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/GormDatabase.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/GormDatabaseTypeConverter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/GormDiff.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/GrailsChange.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/GrailsChangeLogParser.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/GrailsDiffStatusListener.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/GrailsPrecondition.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/HibernateAwareTypeConverter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/MigrationRunner.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/MigrationUtils.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/MysqlAwareCreateTableGenerator.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/NoopVisitor.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/ScriptUtils.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/Slf4jLogger.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/dbdoc/AuthorListWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/dbdoc/AuthorWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/dbdoc/ChangeLogListWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/dbdoc/ChangeLogWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/dbdoc/ColumnWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/dbdoc/HTMLListWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/dbdoc/HTMLWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/dbdoc/MemoryDocVisitor.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/dbdoc/PendingChangesWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/dbdoc/TableListWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/groovy/grails/plugin/databasemigration/dbdoc/TableWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.3.5/src/resources/changelog.template" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate-3.6.10.1/HibernateGrailsPlugin.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate-3.6.10.1/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate-3.6.10.1/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate-3.6.10.1/grails-app/i18n/messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate-3.6.10.1/plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate-3.6.10.1/scripts/CreateHibernateCfgXml.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate-3.6.10.1/scripts/SchemaExport.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate-3.6.10.1/src/docs/ref/Domain/attach.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate-3.6.10.1/src/docs/ref/Domain/delete.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate-3.6.10.1/src/docs/ref/Domain/discard.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate-3.6.10.1/src/docs/ref/Domain/getDirtyPropertyNames.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate-3.6.10.1/src/docs/ref/Domain/getPersistentValue.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate-3.6.10.1/src/docs/ref/Domain/instanceOf.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate-3.6.10.1/src/docs/ref/Domain/isAttached.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate-3.6.10.1/src/docs/ref/Domain/isDirty.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate-3.6.10.1/src/docs/ref/Domain/lock.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate-3.6.10.1/src/docs/ref/Domain/merge.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate-3.6.10.1/src/docs/ref/Domain/methodMissing.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate-3.6.10.1/src/docs/ref/Domain/refresh.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate-3.6.10.1/src/docs/ref/Domain/save.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate-3.6.10.1/src/docs/ref/Domain/validate.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate-3.6.10.1/src/groovy/grails/plugin/hibernate3/HibernatePluginSupport.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate-3.6.10.1/src/java/hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.42/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.42/TomcatGrailsPlugin.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.42/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.42/grails-plugin-tomcat-7.0.42.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.42/plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.42/scripts/Tomcat.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.42/scripts/_Events.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.42/src/groovy/org/grails/plugins/tomcat/InlineExplodedTomcatServer.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.42/src/groovy/org/grails/plugins/tomcat/TomcatLoader.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.42/src/groovy/org/grails/plugins/tomcat/TomcatServer.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.42/src/groovy/org/grails/plugins/tomcat/TomcatServerFactory.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.42/src/groovy/org/grails/plugins/tomcat/fork/ForkedTomcatServer.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.42/src/groovy/org/grails/plugins/tomcat/fork/TomcatDevelopmentRunner.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.42/src/groovy/org/grails/plugins/tomcat/fork/TomcatExecutionContext.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.42/src/groovy/org/grails/plugins/tomcat/fork/TomcatWarRunner.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.42/src/java/org/grails/plugins/tomcat/ParentDelegatingClassLoader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.42/src/java/org/grails/plugins/tomcat/TomcatKillSwitch.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/groovy/groovyempire/GroovyEmpireEntity.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/groovyempire/Owner.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/groovyempire/OwnerSpec.groovy" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/ScaffoldingGrailsPlugin.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/scripts/CreateScaffoldController.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/scripts/GenerateAll.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/scripts/GenerateAsyncController.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/scripts/GenerateController.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/scripts/GenerateViews.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/scripts/_Events.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/scripts/_GrailsGenerate.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/src/groovy/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/src/java/org/codehaus/groovy/grails/scaffolding/AbstractGrailsTemplateGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/src/java/org/codehaus/groovy/grails/scaffolding/DomainClassPropertyComparator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/src/java/org/codehaus/groovy/grails/scaffolding/GrailsTemplateGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/src/java/org/codehaus/groovy/grails/scaffolding/SimpleDomainClassPropertyComparator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/src/java/org/codehaus/groovy/grails/scaffolding/view/ScaffoldedGroovyPageView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/src/java/org/codehaus/groovy/grails/scaffolding/view/ScaffoldingViewResolver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/src/templates/artifacts/ScaffoldingController.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/src/templates/scaffolding/AsyncController.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/src/templates/scaffolding/AsyncSpec.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/src/templates/scaffolding/Controller.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/src/templates/scaffolding/Spec.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/src/templates/scaffolding/_form.gsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/src/templates/scaffolding/create.gsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/src/templates/scaffolding/edit.gsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/src/templates/scaffolding/index.gsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/src/templates/scaffolding/renderEditor.template" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.0.0/src/templates/scaffolding/show.gsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/web.xml.tmp" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grails-app/domain/groovyempire/Entity.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/groovyempire/EntityType.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Account.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Account.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/groovyempire/AccountSpec.groovy" afterPath="$PROJECT_DIR$/test/unit/groovyempire/AccountSpec.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Bank.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Bank.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/groovyempire/BankSpec.groovy" afterPath="$PROJECT_DIR$/test/unit/groovyempire/BankSpec.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/groovyempire/Entity.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/groovyempire/Entity.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/groovyempire/EntitySpec.groovy" afterPath="$PROJECT_DIR$/test/unit/groovyempire/EntitySpec.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GroovyEmpire-grailsPlugins.iml" afterPath="$PROJECT_DIR$/GroovyEmpire-grailsPlugins.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GroovyEmpire.iml" afterPath="$PROJECT_DIR$/GroovyEmpire.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/TESTS-TestSuites.xml" afterPath="$PROJECT_DIR$/target/test-reports/TESTS-TestSuites.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Transaction.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Transaction.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/all.html" afterPath="$PROJECT_DIR$/target/test-reports/html/all.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/failed.html" afterPath="$PROJECT_DIR$/target/test-reports/html/failed.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/index.html" afterPath="$PROJECT_DIR$/target/test-reports/html/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/web.xml.tmp" afterPath="$PROJECT_DIR$/target/work/web.xml.tmp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GroovyEmpire.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -261,38 +115,72 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application.properties">
+      <file leaf-file-name="AccountSpec.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/unit/groovyempire/AccountSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+            <state line="29" column="37" selection-start="757" selection-end="757" vertical-scroll-proportion="-18.913044" vertical-offset="0" max-vertical-offset="645">
+              <folding>
+                <element signature="e#22#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Entity.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/groovyempire/Entity.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="5" selection-start="195" selection-end="195" vertical-scroll-proportion="-8.478261" vertical-offset="0" max-vertical-offset="540">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuildConfig.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+      <file leaf-file-name="Owner.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/groovyempire/Owner.groovy">
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="5" selection-start="2540" selection-end="2540" vertical-scroll-proportion="0.0" vertical-offset="533" max-vertical-offset="1095">
+            <state line="5" column="17" selection-start="102" selection-end="102" vertical-scroll-proportion="-1.5" vertical-offset="0" max-vertical-offset="315">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Config.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <file leaf-file-name="Account.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Account.groovy">
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="38" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0" vertical-offset="1266" max-vertical-offset="1815">
+            <state line="13" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.24314214" vertical-offset="0" max-vertical-offset="802">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplicationResources.groovy" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy">
+      <file leaf-file-name="Transaction.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Transaction.groovy">
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="1" selection-start="78" selection-end="78" vertical-scroll-proportion="0.10676157" vertical-offset="0" max-vertical-offset="562">
+            <state line="11" column="32" selection-start="209" selection-end="209" vertical-scroll-proportion="-3.3" vertical-offset="0" max-vertical-offset="330">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bank.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Bank.groovy">
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="35" selection-start="646" selection-end="646" vertical-scroll-proportion="-8.1" vertical-offset="0" max-vertical-offset="645">
+              <folding>
+                <element signature="e#30#56#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -319,23 +207,29 @@
         <option value="$PROJECT_DIR$/test/unit/groovyempire/GameServiceSpec.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/groovyempire/Individual.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/groovyempire/Organization.groovy" />
-        <option value="$PROJECT_DIR$/test/unit/groovyempire/EntitySpec.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/groovyempire/Bank.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Transaction.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Bank.groovy" />
-        <option value="$PROJECT_DIR$/test/unit/groovyempire/BankSpec.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Account.groovy" />
         <option value="$PROJECT_DIR$/target/stacktrace.log" />
-        <option value="$PROJECT_DIR$/grails-app/domain/groovyempire/Entity.groovy" />
-        <option value="$PROJECT_DIR$/test/unit/groovyempire/AccountSpec.groovy" />
         <option value="$PROJECT_DIR$/application.properties" />
         <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+        <option value="$PROJECT_DIR$/src/groovy/groovyempire/EntityType.groovy" />
+        <option value="$PROJECT_DIR$/src/groovy/groovyempire/Entity.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/groovyempire/GroovyEmpireEntity.groovy" />
+        <option value="$PROJECT_DIR$/src/groovy/groovyempire/GroovyEmpireEntity.groovy" />
+        <option value="$PROJECT_DIR$/test/unit/groovyempire/OwnerSpec.groovy" />
+        <option value="$PROJECT_DIR$/test/unit/groovyempire/EntitySpec.groovy" />
+        <option value="$PROJECT_DIR$/test/unit/groovyempire/BankSpec.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Transaction.groovy" />
+        <option value="$PROJECT_DIR$/test/unit/groovyempire/AccountSpec.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/groovyempire/Owner.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/groovyempire/Entity.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Bank.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Account.groovy" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="414" />
+    <option name="x" value="644" />
     <option name="y" value="22" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
@@ -373,7 +267,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -394,7 +288,7 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_directory_selection" value="$PROJECT_DIR$/grails-app/domain/groovyempire" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/groovy" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
@@ -414,11 +308,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="groovyempire" />
       <recent name="groovyempire.banking" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="groovyempire.banking" />
       <recent name="groovyempire" />
+      <recent name="groovyempire.banking" />
     </key>
   </component>
   <component name="RunManager" selected="Grails.BankSpec">
@@ -721,7 +616,7 @@
       <workItem from="1382152917621" duration="1143000" />
       <workItem from="1385085633410" duration="130000" />
       <workItem from="1385166364755" duration="86000" />
-      <workItem from="1385949892446" duration="934000" />
+      <workItem from="1385949892446" duration="10591000" />
     </task>
     <task id="LOCAL-00001" summary="I think the first commit &#10;">
       <created>1382153414843</created>
@@ -731,10 +626,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13364000" />
+    <option name="totallyTimeSpent" value="23021000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="414" y="22" width="1400" height="1000" extended-state="0" />
+    <frame x="644" y="22" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -753,7 +648,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963072" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -800,22 +695,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="5" selection-start="398" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="570">
           <folding>
-            <element signature="e#22#61#0" expanded="true" />
+            <element signature="e#22#51#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/groovyempire/Entity.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/stacktrace.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4530">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,22 +711,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="5" selection-start="398" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="570">
           <folding>
-            <element signature="e#22#61#0" expanded="true" />
+            <element signature="e#22#51#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/groovyempire/Entity.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/stacktrace.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="72" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -860,35 +727,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="5" selection-start="398" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="570">
           <folding>
-            <element signature="e#22#61#0" expanded="true" />
+            <element signature="e#22#51#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/groovyempire/Entity.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/stacktrace.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="72" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Account.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/stacktrace.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="72" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
           <folding />
         </state>
       </provider>
@@ -904,7 +750,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="81" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="525">
           <folding>
-            <element signature="e#22#61#0" expanded="true" />
+            <element signature="e#22#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -921,88 +767,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="852" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/groovyempire/GameServiceSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/stacktrace.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4530">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/groovyempire/EntitySpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="25" selection-start="638" selection-end="638" vertical-scroll-proportion="-16.304348" vertical-offset="0" max-vertical-offset="750">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/groovyempire/AccountSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="5" selection-start="535" selection-end="535" vertical-scroll-proportion="-15.652174" vertical-offset="0" max-vertical-offset="570">
-          <folding>
-            <element signature="e#22#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Account.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="-3.9130435" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Bank.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="15" selection-start="105" selection-end="105" vertical-scroll-proportion="-2.1" vertical-offset="0" max-vertical-offset="330">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Transaction.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="170" selection-end="170" vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/groovyempire/Entity.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="69" selection-end="69" vertical-scroll-proportion="-3.2608695" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/groovyempire/BankSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="23" selection-start="465" selection-end="465" vertical-scroll-proportion="-13.043478" vertical-offset="0" max-vertical-offset="585">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="539">
@@ -1017,9 +781,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="5" selection-start="2540" selection-end="2540" vertical-scroll-proportion="0.0" vertical-offset="533" max-vertical-offset="1095">
+        <state line="4" column="1" selection-start="78" selection-end="78" vertical-scroll-proportion="0.10676157" vertical-offset="0" max-vertical-offset="562">
           <folding />
         </state>
       </provider>
@@ -1031,9 +795,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy">
+    <entry file="file://$PROJECT_DIR$/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="1" selection-start="78" selection-end="78" vertical-scroll-proportion="0.10676157" vertical-offset="0" max-vertical-offset="562">
+        <state line="1" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="0.017605634" vertical-offset="0" max-vertical-offset="852">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/groovyempire/EntityType.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="14" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gvm/grails/current/src/grails-datastore-gorm-2.0.4.RELEASE-sources.jar!/org/grails/datastore/gorm/GormStaticApi.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="214" column="6" selection-start="7600" selection-end="7600" vertical-scroll-proportion="0.0" vertical-offset="2323" max-vertical-offset="12495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/groovyempire/GameServiceSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="6" selection-start="222" selection-end="222" vertical-scroll-proportion="0.14475271" vertical-offset="0" max-vertical-offset="829">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="36" selection-start="1290" selection-end="1290" vertical-scroll-proportion="0.0" vertical-offset="243" max-vertical-offset="1095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/groovy/groovyempire/GroovyEmpireEntity.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="1" selection-start="136" selection-end="136" vertical-scroll-proportion="0.1628468" vertical-offset="0" max-vertical-offset="829">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/groovyempire/OwnerSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="383" selection-end="383" vertical-scroll-proportion="0.35359803" vertical-offset="0" max-vertical-offset="806">
+          <folding>
+            <element signature="e#22#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/groovyempire/EntitySpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="30" selection-start="582" selection-end="582" vertical-scroll-proportion="0.44665012" vertical-offset="0" max-vertical-offset="806">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/groovyempire/BankSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="583" selection-end="583" vertical-scroll-proportion="0.4885404" vertical-offset="0" max-vertical-offset="829">
+          <folding>
+            <element signature="e#22#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Transaction.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="32" selection-start="209" selection-end="209" vertical-scroll-proportion="-3.3" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/groovyempire/Entity.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="5" selection-start="195" selection-end="195" vertical-scroll-proportion="-8.478261" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/groovyempire/Owner.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="102" selection-end="102" vertical-scroll-proportion="-1.5" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/groovyempire/AccountSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="37" selection-start="757" selection-end="757" vertical-scroll-proportion="-18.913044" vertical-offset="0" max-vertical-offset="645">
+          <folding>
+            <element signature="e#22#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Bank.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="35" selection-start="646" selection-end="646" vertical-scroll-proportion="-8.1" vertical-offset="0" max-vertical-offset="645">
+          <folding>
+            <element signature="e#30#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Account.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.24314214" vertical-offset="0" max-vertical-offset="802">
           <folding />
         </state>
       </provider>
@@ -1045,7 +927,7 @@
         <entry key="GroovyEmpire">
           <value>
             <GrailsSettings>
-              <option name="buildConfigCrc" value="407333595" />
+              <option name="buildConfigCrc" value="643159521" />
               <option name="pluginDependenciesCrc" value="-1655629879" />
               <option name="properties">
                 <map>

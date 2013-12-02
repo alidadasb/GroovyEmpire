@@ -5,8 +5,12 @@ package groovyempire.banking
  */
 class Transaction {
     Long amount
-    Long fromAccount
-    Long toAccount
+    Account fromAccount
+    Account toAccount
     String description
+
+    static belongsTo = [account:Account]
+
+
 
 }

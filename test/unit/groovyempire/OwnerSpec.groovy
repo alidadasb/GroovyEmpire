@@ -8,10 +8,9 @@ import spock.lang.Specification
 /**
  * See the API for {@link grails.test.mixin.domain.DomainClassUnitTestMixin} for usage instructions
  */
-
-@TestFor(Bank)
-@Mock([Owner,Entity])
-class BankSpec extends Specification {
+@TestFor(Owner)
+@Mock([Entity])
+class OwnerSpec extends Specification {
 
     def setup() {
     }
@@ -19,16 +18,14 @@ class BankSpec extends Specification {
     def cleanup() {
     }
 
-    void "Create bank account"() {
+    void "Create an owner"() {
         given:
-        def owner =  Owner.establish("Alidad",EntityType.INDIVIDUAL)
 
         when:
-        def bank = Bank.establishBank("US-BANK",owner,1000)
+        def owner =  Owner.establish("Alidad",EntityType.INDIVIDUAL)
 
         then:
-        bank.name == "US-BANK"
-        bank.amount == 1000
-        bank.owner.name == "Alidad"
+        owner.name == "Alidad"
+        owner.entity.type == EntityType.INDIVIDUAL
     }
 }

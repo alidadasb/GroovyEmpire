@@ -16,31 +16,15 @@ class EntitySpec extends Specification {
     def cleanup() {
     }
 
-    void "Creating Individual"() {
+    void "Create an owner"() {
         given:
-        def individual = new Entity( name:'Ali',type:EntityType.INDIVIDUAL,code:"12312").save()
-        def id = individual.id
 
         when:
-        def ind = Entity.get(id)
+        def entity =  Entity.establish(EntityType.INDIVIDUAL,"Alidad")
 
         then:
-        ind.name == "Ali"
-        ind.type.toString()=="Individual"
-        ind.code == "12312"
+        entity.name == "Alidad"
+        entity.type == EntityType.INDIVIDUAL
     }
 
-    void "Creating Enterprise"() {
-        given:
-        def individual = new Entity( name:'Google',type:EntityType.ENTERPRISE,code:"12312").save()
-        def id = individual.id
-
-        when:
-        def ind = Entity.get(id)
-
-        then:
-        ind.name == "Google"
-        ind.type.toString()=="Enterprise"
-        ind.code == "12312"
-    }
 }

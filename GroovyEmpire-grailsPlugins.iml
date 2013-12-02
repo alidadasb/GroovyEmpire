@@ -4,20 +4,17 @@
     <facet type="web" name="GrailsWeb">
       <configuration>
         <webroots>
-          <root url="file://$MODULE_DIR$/target/work/plugins/jquery-1.10.2/web-app" relative="/" />
+          <root url="file://$MODULE_DIR$/target/work/plugins/fixtures-1.2/web-app" relative="/" />
           <root url="file://$MODULE_DIR$/target/work/plugins/console-1.2/web-app" relative="/" />
           <root url="file://$MODULE_DIR$/target/work/plugins/console-1.2/grails-app/views" relative="/" />
-          <root url="file://$MODULE_DIR$/target/work/plugins/fixtures-1.2/web-app" relative="/" />
+          <root url="file://$MODULE_DIR$/target/work/plugins/jquery-1.10.2/web-app" relative="/" />
         </webroots>
         <sourceRoots />
       </configuration>
     </facet>
     <facet type="hibernate" name="Hibernate">
       <configuration>
-        <datasource-map>
-          <unit-entry name="Gorm" />
-          <unit-entry name="sessionFactory" />
-        </datasource-map>
+        <datasource-map />
         <naming-strategy-map />
       </configuration>
     </facet>
@@ -59,9 +56,9 @@
       <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/resources-1.2/grails-app/i18n" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/resources-1.2/grails-app/taglib" isTestSource="false" />
     </content>
-    <content url="file://$MODULE_DIR$/target/work/plugins/scaffolding-2.0.0">
-      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/scaffolding-2.0.0/src/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/scaffolding-2.0.0/src/groovy" isTestSource="false" />
+    <content url="file://$MODULE_DIR$/target/work/plugins/scaffolding-2.0.1">
+      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/scaffolding-2.0.1/src/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/scaffolding-2.0.1/src/groovy" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/target/work/plugins/tomcat-7.0.47">
       <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/tomcat-7.0.47/src/java" isTestSource="false" />
@@ -76,7 +73,6 @@
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library (GroovyEmpire-grailsPlugins)">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/target/work/plugins/build-test-data-2.0.8/lib" />
           <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-commons-annotations/3.2.0.Final/hibernate-commons-annotations-3.2.0.Final.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-entitymanager/3.6.10.Final/hibernate-entitymanager-3.6.10.Final.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar!/" />
@@ -98,6 +94,7 @@
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-logging-log4j/7.0.47/tomcat-embed-logging-log4j-7.0.47.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-jasper/7.0.47/tomcat-embed-jasper-7.0.47.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/tomcat-catalina-ant/7.0.47/tomcat-catalina-ant-7.0.47.jar!/" />
+          <root url="file://$MODULE_DIR$/target/work/plugins/build-test-data-2.0.8/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
