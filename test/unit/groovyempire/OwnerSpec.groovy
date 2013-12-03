@@ -2,7 +2,6 @@ package groovyempire
 
 import grails.test.mixin.Mock
 import grails.test.mixin.TestFor
-import groovyempire.banking.Bank
 import spock.lang.Specification
 
 /**
@@ -22,7 +21,7 @@ class OwnerSpec extends Specification {
         given:
 
         when:
-        def owner =  Owner.establish("Alidad",EntityType.INDIVIDUAL)
+        def owner = Owner.establish("Alidad", EntityType.INDIVIDUAL)
 
         then:
         owner.name == "Alidad"

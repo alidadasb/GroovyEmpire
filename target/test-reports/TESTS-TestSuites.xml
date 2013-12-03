@@ -1,26 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="Alis-MacBook-Pro-2.local" id="0" name="AccountSpec" package="groovyempire" tests="1" time="0.453" timestamp="2013-12-02T05:28:57">
+  <testsuite errors="0" failures="0" hostname="Alis-MacBook-Pro-2.local" id="0" name="BankSpec" package="groovyempire.banking" tests="1" time="0.089" timestamp="2013-12-03T02:33:34">
       <properties />
 
-      <testcase classname="groovyempire.AccountSpec" name="Create account for a bank" time="0.228" />
+      <testcase classname="groovyempire.banking.BankSpec" name="Create a bank" time="0.089" />
 
-      <system-out><![CDATA[--Output from Create account for a bank--
---------------------
-owner:groovyempire.Owner : 2
-bank:groovyempire.banking.Bank : 1
-initial:100
---------------------
+      <system-out><![CDATA[--Output from Create a bank--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from Create account for a bank--
+      <system-err><![CDATA[--Output from Create a bank--
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Alis-MacBook-Pro-2.local" id="1" name="BankSpec" package="groovyempire" tests="1" time="0.42" timestamp="2013-12-02T05:28:57">
+  <testsuite errors="0" failures="0" hostname="Alis-MacBook-Pro-2.local" id="1" name="AccountSpec" package="groovyempire" tests="4" time="1.536" timestamp="2013-12-03T02:33:27">
       <properties />
 
-      <testcase classname="groovyempire.BankSpec" name="Create bank account" time="0.215" />
+      <testcase classname="groovyempire.AccountSpec" name="Create account for a bank" time="0.756" />
+
+      <testcase classname="groovyempire.AccountSpec" name="Deposit to bank account" time="0.148" />
+
+      <testcase classname="groovyempire.AccountSpec" name="Withdraw from bank account" time="0.145" />
+
+      <testcase classname="groovyempire.AccountSpec" name="Withdraw more than balance should return error " time="0.141" />
+
+      <system-out><![CDATA[--Output from Create account for a bank--
+--Output from Deposit to bank account--
+--Output from Withdraw from bank account--
+--Output from Withdraw more than balance should return error --
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Create account for a bank--
+--Output from Deposit to bank account--
+--Output from Withdraw from bank account--
+--Output from Withdraw more than balance should return error --
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Alis-MacBook-Pro-2.local" id="2" name="BankSpec" package="groovyempire" tests="1" time="0.407" timestamp="2013-12-03T02:33:28">
+      <properties />
+
+      <testcase classname="groovyempire.BankSpec" name="Create bank account" time="0.149" />
 
       <system-out><![CDATA[--Output from Create bank account--
 ]]></system-out>
@@ -29,10 +48,10 @@ initial:100
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Alis-MacBook-Pro-2.local" id="2" name="EntitySpec" package="groovyempire" tests="1" time="0.305" timestamp="2013-12-02T05:28:57">
+  <testsuite errors="0" failures="0" hostname="Alis-MacBook-Pro-2.local" id="3" name="EntitySpec" package="groovyempire" tests="1" time="0.394" timestamp="2013-12-03T02:33:29">
       <properties />
 
-      <testcase classname="groovyempire.EntitySpec" name="Create an owner" time="0.092" />
+      <testcase classname="groovyempire.EntitySpec" name="Create an owner" time="0.089" />
 
       <system-out><![CDATA[--Output from Create an owner--
 ]]></system-out>
@@ -41,10 +60,10 @@ initial:100
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Alis-MacBook-Pro-2.local" id="3" name="OwnerSpec" package="groovyempire" tests="1" time="0.12" timestamp="2013-12-02T05:28:58">
+  <testsuite errors="0" failures="0" hostname="Alis-MacBook-Pro-2.local" id="4" name="OwnerSpec" package="groovyempire" tests="1" time="0.114" timestamp="2013-12-03T02:33:29">
       <properties />
 
-      <testcase classname="groovyempire.OwnerSpec" name="Create an owner" time="0.117" />
+      <testcase classname="groovyempire.OwnerSpec" name="Create an owner" time="0.108" />
 
       <system-out><![CDATA[--Output from Create an owner--
 ]]></system-out>

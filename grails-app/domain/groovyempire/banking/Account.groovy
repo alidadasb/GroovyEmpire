@@ -1,11 +1,13 @@
 package groovyempire.banking
 
 import groovyempire.Owner
+import groovyempire.exceptions.NotEnoughBalanceException
 
 class Account {
 
-    Long balance = 0
+    Money balance
 
+    static embedded = ['balance']
     static hasMany = [owners:Owner,transactions:Transaction]
     static belongsTo = [bank:Bank]
 
@@ -17,12 +19,22 @@ class Account {
     }
 
     static Account establish(owner,bank,balance){
-        println "-" * 20
-        println "owner:$owner"
-        println "bank:$bank"
-        println "initial:$balance"
-        println "-" * 20
         def newAccount = new Account(bank:bank,balance:balance,owners:[owner])
         newAccount.save(flush: true,failOnError: true)
+    }
+
+    Boolean deposit(Money money) {
+        balance.plus(money)
+        true
+    }
+
+    Boolean withdraw(Money money) {
+        if (!isFundAvailable(money)) throw new NotEnoughBalanceException()
+        balance.minus(money)
+        true
+    }
+
+    Boolean isFundAvailable(Money money) {
+         (this.balance.compareTo(money)>=0)
     }
 }

@@ -20,7 +20,7 @@ class EntitySpec extends Specification {
         given:
 
         when:
-        def entity =  Entity.establish(EntityType.INDIVIDUAL,"Alidad")
+        def entity = Entity.establish(EntityType.INDIVIDUAL, "Alidad")
 
         then:
         entity.name == "Alidad"

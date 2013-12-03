@@ -3,6 +3,7 @@ package groovyempire
 import grails.test.mixin.Mock
 import grails.test.mixin.TestFor
 import groovyempire.banking.Bank
+import groovyempire.banking.Money
 import spock.lang.Specification
 
 /**
@@ -10,7 +11,7 @@ import spock.lang.Specification
  */
 
 @TestFor(Bank)
-@Mock([Owner,Entity])
+@Mock([Owner, Entity])
 class BankSpec extends Specification {
 
     def setup() {
@@ -21,14 +22,15 @@ class BankSpec extends Specification {
 
     void "Create bank account"() {
         given:
-        def owner =  Owner.establish("Alidad",EntityType.INDIVIDUAL)
+        def owner = Owner.establish("Alidad", EntityType.INDIVIDUAL)
 
         when:
-        def bank = Bank.establishBank("US-BANK",owner,1000)
+        def bank = Bank.establishBank("US-BANK", owner, new Money(1000))
 
         then:
         bank.name == "US-BANK"
-        bank.amount == 1000
+        bank.balance == new Money(1000)
         bank.owner.name == "Alidad"
     }
+
 }
