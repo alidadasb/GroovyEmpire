@@ -1,6 +1,5 @@
 package groovyempire.banking
 
-import grails.transaction.Transactional
 import groovyempire.Entity
 import groovyempire.EntityType
 import groovyempire.GroovyEmpireEntity
@@ -14,6 +13,10 @@ class Bank implements GroovyEmpireEntity {
     static embedded = ['balance']
     static hasMany = [accounts:Account]
     Owner owner
+
+    Date dateCreated
+    Date lastUpdated
+
 
     static mapping = {
         balance nullable:true

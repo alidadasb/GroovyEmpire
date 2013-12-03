@@ -11,6 +11,9 @@ class Account {
     static hasMany = [owners:Owner,transactions:Transaction]
     static belongsTo = [bank:Bank]
 
+    Date dateCreated
+    Date lastUpdated
+
     static constraints = {
     }
 
@@ -24,14 +27,22 @@ class Account {
     }
 
     Boolean deposit(Money money) {
-        balance.plus(money)
-        true
+        def transaction = Transaction.establish(this,money,TransactionType.DEPOSIT,"Deposit")
+        if(transaction) {
+            balance.plus(money)
+            return true
+        }
+        false
     }
 
     Boolean withdraw(Money money) {
         if (!isFundAvailable(money)) throw new NotEnoughBalanceException()
-        balance.minus(money)
-        true
+        def transaction = Transaction.establish(this,money,TransactionType.WITHDRAW,"Withdraw")
+        if (transaction){
+            balance.minus(money)
+            return true
+        }
+        false
     }
 
     Boolean isFundAvailable(Money money) {

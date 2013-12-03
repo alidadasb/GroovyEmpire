@@ -11,15 +11,16 @@ class Money {
     Money(Long money){
         this.amount=money
     }
+
     Money(){
         this.amount=0
     }
 
-    void minus(Money money) {
+    int minus(Money money) {
         this.amount -= money.amount
     }
 
-    void plus(Money money) {
+    int plus(Money money) {
         this.amount += money.amount
     }
 

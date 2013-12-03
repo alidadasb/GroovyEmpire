@@ -5,6 +5,7 @@ import grails.test.mixin.TestFor
 import groovyempire.banking.Account
 import groovyempire.banking.Bank
 import groovyempire.banking.Money
+import groovyempire.banking.Transaction
 import groovyempire.exceptions.NotEnoughBalanceException
 import spock.lang.Specification
 
@@ -13,7 +14,7 @@ import spock.lang.Specification
  */
 
 @TestFor(Account)
-@Mock([Entity, Owner, Bank])
+@Mock([Entity, Owner, Bank, Transaction])
 class AccountSpec extends Specification {
 
     def setup() {

@@ -9,6 +9,9 @@ class Entity {
     String code
     String name
 
+    Date dateCreated
+    Date lastUpdated
+
     static String nextCode() {
          UUID.randomUUID()
     }
