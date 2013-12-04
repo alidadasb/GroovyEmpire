@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f603c66f-ac32-458e-bee9-bcc4afd69d51" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/groovy/groovyempire/banking/TransactionType.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Account.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Account.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/groovyempire/AccountSpec.groovy" afterPath="$PROJECT_DIR$/test/unit/groovyempire/AccountSpec.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Bank.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Bank.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/groovyempire/Entity.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/groovyempire/Entity.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/groovy/groovyempire/banking/Money.groovy" afterPath="$PROJECT_DIR$/src/groovy/groovyempire/banking/Money.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/TESTS-TestSuites.xml" afterPath="$PROJECT_DIR$/target/test-reports/TESTS-TestSuites.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Transaction.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/groovyempire/banking/Transaction.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GroovyEmpire.iws" />
@@ -109,7 +100,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="149" selection-end="149" vertical-scroll-proportion="0.14962594" vertical-offset="0" max-vertical-offset="855">
+            <state line="10" column="60" selection-start="244" selection-end="244" vertical-scroll-proportion="0.18703242" vertical-offset="0" max-vertical-offset="855">
               <folding>
                 <element signature="e#30#55#0" expanded="true" />
               </folding>
@@ -615,7 +606,7 @@
       <workItem from="1382152917621" duration="1143000" />
       <workItem from="1385085633410" duration="130000" />
       <workItem from="1385166364755" duration="86000" />
-      <workItem from="1385949892446" duration="20351000" />
+      <workItem from="1385949892446" duration="20952000" />
     </task>
     <task id="LOCAL-00001" summary="I think the first commit &#10;">
       <created>1382153414843</created>
@@ -633,14 +624,18 @@
       <created>1386038107510</created>
       <updated>1386038107510</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added transaction to each withdraw and deposit">
+      <created>1386041531325</created>
+      <updated>1386041531325</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32781000" />
+    <option name="totallyTimeSpent" value="33382000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="427" y="32" width="1400" height="1000" extended-state="0" />
+    <frame x="427" y="32" width="1400" height="1000" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -695,7 +690,8 @@
     <MESSAGE value="fixing the bankspec" />
     <MESSAGE value="fixing the bankspec&#10;" />
     <MESSAGE value="converted money to money object" />
-    <option name="LAST_COMMIT_MESSAGE" value="converted money to money object" />
+    <MESSAGE value="Added transaction to each withdraw and deposit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added transaction to each withdraw and deposit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -967,7 +963,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="149" selection-end="149" vertical-scroll-proportion="0.14962594" vertical-offset="0" max-vertical-offset="855">
+        <state line="10" column="60" selection-start="244" selection-end="244" vertical-scroll-proportion="0.18703242" vertical-offset="0" max-vertical-offset="855">
           <folding>
             <element signature="e#30#55#0" expanded="true" />
           </folding>
