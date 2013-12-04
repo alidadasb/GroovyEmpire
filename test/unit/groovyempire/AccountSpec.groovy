@@ -6,6 +6,7 @@ import groovyempire.banking.Account
 import groovyempire.banking.Bank
 import groovyempire.banking.Money
 import groovyempire.banking.Transaction
+import groovyempire.banking.TransactionType
 import groovyempire.exceptions.NotEnoughBalanceException
 import spock.lang.Specification
 
@@ -17,36 +18,23 @@ import spock.lang.Specification
 @Mock([Entity, Owner, Bank, Transaction])
 class AccountSpec extends Specification {
 
+    Account account
+
     def setup() {
+        def bankOwner = Owner.establish("Alidad", EntityType.INDIVIDUAL)
+        def bank = Bank.establishBank("US-BANK", bankOwner, new Money(1000))
+        def accountOwner = bankOwner
+        account = bank.establishAccount(accountOwner, new Money(100))
     }
 
     def cleanup() {
     }
 
-    void "Create account for a bank"() {
-        given:
-        def bankOwner = Owner.establish("Alidad", EntityType.INDIVIDUAL)
-        def bank = Bank.establishBank("US-BANK", bankOwner, new Money(1000))
-
-        def accountOwner = Owner.establish("Alidad", EntityType.INDIVIDUAL)
-        when:
-        def account = bank.establishAccount(accountOwner, new Money(100))
-
-        then:
-        account.balance == new Money(100)
-        account.owners[0] == accountOwner
-    }
-
     void "Deposit to bank account"() {
         given:
-        def bankOwner = Owner.establish("Alidad", EntityType.INDIVIDUAL)
-        def bank = Bank.establishBank("US-BANK", bankOwner, new Money(1000))
-        def accountOwner = bankOwner
-        def account = bank.establishAccount(accountOwner, new Money(100))
 
         when:
         account.deposit(new Money(150))
-
 
         then:
         account.balance == new Money(250)
@@ -54,14 +42,9 @@ class AccountSpec extends Specification {
 
     void "Withdraw from bank account"() {
         given:
-        def bankOwner = Owner.establish("Alidad", EntityType.INDIVIDUAL)
-        def bank = Bank.establishBank("US-BANK", bankOwner, new Money(1000))
-        def accountOwner = bankOwner
-        def account = bank.establishAccount(accountOwner, new Money(100))
 
         when:
         account.withdraw(new Money(20))
-
 
         then:
         account.balance == new Money(80)
@@ -69,17 +52,38 @@ class AccountSpec extends Specification {
 
     void "Withdraw more than balance should return error "() {
         given:
-        def bankOwner = Owner.establish("Alidad", EntityType.INDIVIDUAL)
-        def bank = Bank.establishBank("US-BANK", bankOwner, new Money(1000))
-        def accountOwner = bankOwner
-        def account = bank.establishAccount(accountOwner, new Money(100))
-
         when:
         account.withdraw(new Money(200))
-
 
         then:
         account.balance == new Money(100)
         thrown(NotEnoughBalanceException)
+    }
+
+    void "Each deposit should generate a transaction record"() {
+        given:
+        when:
+        account.deposit(new Money(50))
+
+        then:
+        account.balance == new Money(150)
+        def savedTransaction = Transaction.findByAccount(account)
+
+        savedTransaction
+        savedTransaction.amount == new Money(50)
+        savedTransaction.transactionType == TransactionType.DEPOSIT
+    }
+    void "Each withdrawal should generate a transaction record"() {
+        given:
+        when:
+        account.withdraw(new Money(10))
+
+        then:
+        account.balance == new Money(90)
+        def savedTransaction = Transaction.findByAccount(account)
+
+        savedTransaction
+        savedTransaction.amount == new Money(10)
+        savedTransaction.transactionType == TransactionType.WITHDRAW
     }
 }
